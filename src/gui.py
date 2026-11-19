@@ -1,7 +1,7 @@
+import tkinter as tk
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
-import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
 from src.config import ConfigRepository

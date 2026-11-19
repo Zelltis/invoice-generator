@@ -1,6 +1,6 @@
+import re
 from dataclasses import dataclass
 from decimal import Decimal
-import re
 
 GERMAN_MONTHS: tuple[str, ...] = (
     "",
