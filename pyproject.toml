@@ -1,0 +1,19 @@
+[project]
+name = "invoice-generator"
+version = "1.1.2"
+description = "Desktop-Anwendung zur automatisierten Erstellung von Rechnungen (§ 19 UStG)"
+requires-python = ">=3.11"
+dependencies = [
+    "reportlab>=4.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,22 @@
+{
+  "sender": {
+    "name": "Max Mustermann",
+    "street": "Musterstraße 1",
+    "city": "52062 Aachen",
+    "bank": "Musterbank",
+    "iban": "DE00000000000000000000",
+    "tax_id": "123/456/7890"
+  },
+  "client": {
+    "address_lines": [
+      "Musterkunde GmbH",
+      "Abrechnungsteam",
+      "Beispielweg 10",
+      "52062 Aachen"
+    ]
+  },
+  "sequence": {
+    "year": 2026,
+    "last_number": 0
+  }
+}
