@@ -3,7 +3,6 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-
 from src.models import AppConfig, ClientInfo, SenderInfo
 
 
